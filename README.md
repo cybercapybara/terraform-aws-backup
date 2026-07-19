@@ -9,7 +9,7 @@ place to define scheduled, retained backups.
 
 ```hcl
 module "backup" {
-  source = "github.com/cybercapybara/terraform-aws-backup"
+  source = "github.com/moveeeax/terraform-aws-backup"
 
   vault_name = "prod-vault"
   plan_name  = "prod-plan"
